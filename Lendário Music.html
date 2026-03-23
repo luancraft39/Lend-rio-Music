@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://www.lncc.br/~borges/php/testar.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lendário Music</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', sans-serif;
+      background-color: #001F3F; /* Azul escuro */
+      color: #fff;
+    }
+
+    header {
+      background-color: #004080; /* Azul mais vivo */
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      border-bottom: 5px solid #000000; /* Linha preta */
+    }
+
+    .music-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .track-card {
+      background-color: #0059b3; /* Azul médio */
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .track-card:hover {
+      transform: scale(1.05);
+      background-color: #0073e6; /* Azul mais claro no hover */
+    }
+
+    /* Card especial em amarelo */
+    .track-card.amarelo {
+      background-color: #FFD700; /* Amarelo ouro */
+      color: #000; /* Texto preto para contraste */
+    }
+
+    .track-card.amarelo:hover {
+      background-color: #FFA500; /* Laranja no hover */
+    }
+
+    .track-card h3 {
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #000000; /* Preto para títulos */
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    .credits {
+      font-size: 0.9em;
+      margin-top: 8px;
+      color: #fff;
+      background: rgba(0,0,0,0.3);
+      padding: 5px;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    footer {
+      background-color: #004080;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      border-top: 5px solid #000000; /* Linha preta */
+    }
+  </style>
+</head>
+<body>
+  <header>&#127925; Lendário Music</header>
+
+  <div class="music-container">
+    <!-- Música nova em amarelo -->
+    <div class="track-card amarelo">
+      <h3>Remix Dj Oussama - Rai Jdid 2023</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/resxkn.m4a" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#128192; Música: Rai Jdid 2023 Remix<br>
+        &#127926; Remix: Dj Oussama<br>
+        &#127757; Fonte: Cheb Djawed (Sghar w Zo3ama)<br>
+        &#9654; Musique: Ismail<br>
+        &#9654; Parolier: Cheb Djawed<br>
+        &#9654; Remix: Dj Oussama<br>
+        &#9654; Graphic Designer: Dj Oussama From Setif<br>
+        &#128197; Lançamento: 30 de abril de 2023<br>
+        &#128065;&#65039; 407.611 visualizações<br>
+        &#9878;&#65039; Direitos: &#1580;&#1605;&#1610;&#1593; &#1575;&#1604;&#1581;&#1602;&#1608;&#1602; &#1605;&#1581;&#1601;&#1608;&#1592;&#1577; © / All Rights Reserved © / Tous Droits Réservés ©
+      </div>
+    </div>
+
+    <!-- Música em destaque amarelo -->
+    <div class="track-card amarelo">
+      <h3>@lianhuaofficial - CITRUS!</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/7pq9ns.mp4" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Criadora: @lianhuaofficial<br>
+        &#128192; Música: CITRUS!<br>
+        &#127757; Fonte: Produção Original<br>
+        &#9878;&#65039; Licença: Autor Próprio (uso livre pela criadora)
+      </div>
+    </div>
+
+    <!-- Música Original -->
+    <div class="track-card">
+      <h3>LuanGalaxy - Game Over Phonk</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/k8auxn.webm" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Criador: LuanGalaxy<br>
+        &#128192; Música: Game Over Phonk<br>
+        &#127757; Fonte: Produção Original<br>
+        &#9878;&#65039; Licença: Autor Próprio (uso livre pelo criador)
+      </div>
+    </div>
+
+    <!-- Música 1 -->
+    <div class="track-card">
+      <h3>Tobu - Candyland</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/9z0huk.m4a" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Artista: Tobu<br>
+        &#128192; Música: Candyland<br>
+        &#127757; Fonte: Canal Tobu / NCS<br>
+        &#9878;&#65039; Licença: Uso permitido via NoCopyrightSounds
+      </div>
+    </div>
+
+    <!-- Música 2 -->
+    <div class="track-card">
+      <h3>Disfigure - Blank</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/yor637.m4a" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Artista: Disfigure<br>
+        &#128192; Música: Blank (Melodic Dubstep)<br>
+        &#127757; Fonte: Canal NoCopyrightSounds<br>
+        &#9878;&#65039; Licença: Copyright Free Music (NCS)
+      </div>
+    </div>
+
+    <!-- Música 3 -->
+    <div class="track-card">
+      <h3>Kevin MacLeod - Pinball Spring</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/rtgnsv.m4a" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Artista: Kevin MacLeod<br>
+        &#128192; Música: Pinball Spring<br>
+        &#127757; Fonte: Kevin MacLeod Archive<br>
+        &#9878;&#65039; Licença: Creative Commons Attribution
+      </div>
+    </div>
+
+    <!-- Música 4 -->
+    <div class="track-card">
+      <h3>TRA$HCVNDY - PACMAN PHONK</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/8glyb9.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Canal: TRA$HCVNDY<br>
+        &#128192; Música: PACMAN PHONK<br>
+        &#127757; Fonte: Produção do canal TRA$HCVNDY<br>
+        &#9878;&#65039; Licença: Uso conforme autorização do criador
+      </div>
+    </div>
+
+    <!-- Música 5 -->
+    <div class="track-card">
+      <h3>OMFG - Hello</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/x9d8f9.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Canal: OMFG<br>
+        &#128192; Música: Hello<br>
+        &#127757; Fonte: Hello · OMFG<br>
+        &#9878;&#65039; Licença: &#8471; 2014 OMFG<br>
+        &#128197; Lançamento: 2014-12-03<br>
+        &#127899;&#65039; Producer: Alex Savage<br>
+        &#127932; Composer: Alex Savage<br>
+        &#128279; Auto-generated by YouTube
+      </div>
+    </div>
+
+       <!-- Música 6 -->
+    <div class="track-card">
+      <h3>TheFatRat - Unity</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/vxq1kr.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Criador: TheFatRat<br>
+        &#128192; Música: Unity<br>
+        &#127757; Fonte: TheFatRat - Unity<br>
+        &#127916; Watch: <a href="https://tinyurl.com/unitytfr" target="_blank">Official Music Video</a><br>
+        &#127911; Listen: <a href="https://thefatrat.ffm.to/unity" target="_blank">Unity Streaming</a><br>
+        &#128279; Follow: <a href="https://www.instagram.com/thefatratofficial/" target="_blank">Instagram</a>
+      </div>
+    </div>
+
+    <!-- Música 7 -->
+    <div class="track-card">
+      <h3>Cartoon, Jéja - On &amp; On (feat. Daniel Levi)</h3>
+      <audio controls="" loop="">
+        <source src="https://files.catbox.moe/06u78o.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+      <div class="credits">
+        &#127926; Artistas: Cartoon &amp; Jéja<br>
+        &#127908; Vocais: Daniel Levi<br>
+        &#128192; Música: On &amp; On<br>
+        &#127757; Álbum: NCS – The Best of 2015<br>
+        &#128197; Lançamento: 9 de julho de 2015<br>
+        &#127932; Compositores: Ago Teppand, Daniel Levi Viinalass, Hugo Martin Maasikas, Joosep Järvesaar<br>
+        &#127899;&#65039; Produtores: Ago Teppand, Hugo Martin Maasikas, Joosep Järvesaar<br>
+        &#9878;&#65039; Licença: NoCopyrightSounds (NCS Release)<br>
+        &#128279; Fonte: Canal NCS / 7clouds
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2026 Lendário Studio - Todos os direitos reservados</footer>
+
+
+</body></html>
